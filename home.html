@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanture Slovenian</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Avanture Slovenian</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="meetups.html">Meetups</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Avanture Slovenian</h2>
+            <p>Discover and share your adventures in Slovenia!</p>
+        </div>
+    </section>
+
+    <section class="meetup-form">
+        <div class="container">
+            <h2>Organize a Meetup</h2>
+            <form id="meetupForm">
+                <label for="meetupTitle">Title:</label>
+                <input type="text" id="meetupTitle" name="meetupTitle" required>
+                <br>
+                <label for="meetupDate">Date:</label>
+                <input type="date" id="meetupDate" name="meetupDate" required>
+                <br>
+                <label for="meetupLocation">Location:</label>
+                <input type="text" id="meetupLocation" name="meetupLocation" required>
+                <br>
+                <button type="submit">Submit Meetup</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="container">
+            <h2>Recent Posts</h2>
+            <div id="postsList">
+                <!-- Posts will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Avanture Slovenian. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Your JavaScript files -->
+    <script src="firebase-app.js"></script> <!-- Adjust as per your Firebase configuration -->
+    <script src="firebase-database.js"></script>
+    <script src="script.js"></script> <!-- Main script for handling Firebase interactions -->
+</body>
+</html>
