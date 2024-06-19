@@ -14,10 +14,10 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-d
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
+    apiKey: "AIzaSyCLKDTwgOmcQ04E0QGptkjcmzlywZaAycU",
     authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
     databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
+    projectId: "avanture-cfb4c",
     storageBucket: "YOUR_PROJECT_ID.appspot.com",
     messagingSenderId: "YOUR_SENDER_ID",
     appId: "YOUR_APP_ID"
